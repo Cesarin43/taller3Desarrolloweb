@@ -5,3 +5,13 @@ body {
 form {
     margin-bottom: 20px;
 }/*Esto es para añadirle un margen al formulario */
+
+label {
+    display:  block;
+    margin-bottom: 10px;
+}/*Cada etiqueta del label comenzara en una linea diferente*/
+
+input[type ="number"],input[type="text"]{
+    width: 100px;
+    margin-bottom: 10px;
+}/*Se le agrega la margen a los input cuando el usuario ingrese datos de tipo texto y numericos*/
