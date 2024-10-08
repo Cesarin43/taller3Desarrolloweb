@@ -21,14 +21,18 @@ select{
     margin-bottom: 10px
 }/*Se le agrega un margen y un espacio de 150 pixeles en la etiqueta select en el documento de html*/
 
-#balance-display {
+#saldo-Mostrar{
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
 }
 /*Esto sirve para el tamaño de la fuente, que tan grueso sea este, y se le añade una margen superior entre el anterior elemento, en la etiqueta llamada: balance-display*/
 #warning{
-    color:brown;
+    color:red;
     font-size: 18px;
     margin-top:10px;
 }/*Esto sirve para el tamaño de la fuente, que tan grueso sea este, y se le añade una margen superior entre el anterior elemento, en la etiqueta llamada: warning*/
+#historial-de-transacciones{
+    margin-top:30px
+}
+
