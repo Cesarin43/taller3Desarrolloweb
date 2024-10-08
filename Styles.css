@@ -35,4 +35,7 @@ select{
 #historial-de-transacciones{
     margin-top:30px
 }
-
+/*Margente del historial de las transacciones*/
+#transacciones li {
+    margin-bottom: 10px;
+}
