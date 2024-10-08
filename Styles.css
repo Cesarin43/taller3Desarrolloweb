@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} /*Este bloque de codigo sirve para definir la caligra */
+
+form {
+    margin-bottom: 20px;
+}/*Esto es para añadirle un margen al formulario */
+
+label {
+    display:  block;
+    margin-bottom: 10px;
+}/*Cada etiqueta del label comenzara en una linea diferente*/
+
+input[type ="number"],input[type="text"]{
+    width: 100px;
+    margin-bottom: 10px;
+}/*Se le agrega la margen a los input cuando el usuario ingrese datos de tipo texto y numericos*/
+
+select{
+    width: 150px;
+    margin-bottom: 10px
+}/*Se le agrega un margen y un espacio de 150 pixeles en la etiqueta select en el documento de html*/
+
+#saldo-Mostrar{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*Esto sirve para el tamaño de la fuente, que tan grueso sea este, y se le añade una margen superior entre el anterior elemento, en la etiqueta llamada: balance-display*/
+#warning{
+    color:red;
+    font-size: 18px;
+    margin-top:10px;
+}/*Esto sirve para el tamaño de la fuente, que tan grueso sea este, y se le añade una margen superior entre el anterior elemento, en la etiqueta llamada: warning*/
+#historial-de-transacciones{
+    margin-top:30px
+}
+/*Margente del historial de las transacciones*/
+#transacciones li {
+    margin-bottom: 10px;
+}
