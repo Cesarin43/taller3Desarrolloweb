@@ -1,0 +1,43 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#saldo-Mostrar {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#warning {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#historial-de-transacciones {
+  margin-top: 30px;
+}
+
+#transacciones li {
+  margin-bottom: 10px;
+}
