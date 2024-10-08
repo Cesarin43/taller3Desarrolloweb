@@ -15,3 +15,8 @@ input[type ="number"],input[type="text"]{
     width: 100px;
     margin-bottom: 10px;
 }/*Se le agrega la margen a los input cuando el usuario ingrese datos de tipo texto y numericos*/
+
+select{
+    width: 150px;
+    margin-bottom: 10px
+}/*Se le agrega un margen y un espacio de 150 pixeles en la etiqueta select en el documento de html*/
