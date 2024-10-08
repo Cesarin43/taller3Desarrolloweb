@@ -2,3 +2,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } /*Este bloque de codigo sirve para definir la caligra */
 
+form {
+    margin-bottom: 20px;
+}/*Esto es para añadirle un margen al formulario */
