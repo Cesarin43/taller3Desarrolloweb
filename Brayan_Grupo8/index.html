@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Finanzas Personales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        
+        <h1>Simulador de Finanzas Personales</h1>
+        
+        <div class="formulario-wrapper">
+            <form id="income-form">
+                <label for="income">Agregar Ingreso:</label>
+                <input type="number" id="income" name="income">
+                <button type="submit">Agregar</button>
+            </form>
+
+            <form id="expense-form">
+                <label for="expense">Agregar Gasto:</label>
+                <input type="number" id="expense" name="expense">
+                <select id="category">
+                    <option value="">Seleccionar Categoría</option>
+                </select>
+                <button type="submit">Agregar</button>
+            </form>
+
+            <form id="category-form">
+                <label for="new-category">Agregar Categoría:</label>
+                <input type="text" id="new-category" name="new-category">
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+        
+        <div id="balance-display">
+            <p>Saldo Actual: <span id="balance">$0.00</span></p>
+            <p id="warning"></p>
+        </div>
+    </div>
+
+    <div id="transaction-history">
+        <h2>Historial de Transacciones</h2>
+        <ul id="transactions"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
