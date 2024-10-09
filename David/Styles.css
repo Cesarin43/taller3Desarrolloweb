@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 2px solid;
+    background-color: rgb(103, 77, 145);
+    font-weight: bold;
+}/*Se le agrega una caligrafia al texto del Body*/
+
+h1 {
+    text-align: center;
+}
+/*Se centra los titulos*/
+table {
+    width: 100%;
+}/*Tamaño de la tabla*/
+
+th, td {
+    border: 1px solid #443e3e;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/*Se le agrega color y tamaño a las celdas de la tabla*/
+#balance {
+    font-size: 20px;
+    margin-top: 20px;
+}/*En el balance del dinero se le da una margen de acuerdo a la tabla*/
+
+.form-group {
+    margin-bottom: 1px;
+}
+/*Margen respecto al formulario*/
