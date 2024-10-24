@@ -27,7 +27,7 @@ gastosForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const valorGasto = parseFloat(document.getElementById("gasto").value);
   const categoria = document.getElementById("categoria").value;
-  if (!gastos[categoria]) {
+  if (!gastos[categoria]) { // Verificar si la categoría existe, en caso de que no se inicializa en 0.
     gastos[categoria] = 0;
   }
   gastos[categoria] += valorGasto;
@@ -46,7 +46,7 @@ categoriasForm.addEventListener("submit", (e) => {
 });
 
 function actualizarSaldo() {
-  const totalGastos = Object.values(gastos).reduce((a, b) => a + b, 0);
+  const totalGastos = Object.values(gastos).reduce((a, b) => a + b, 0); // Se evalua el array de gastos sumando todos los elementos empezando desde 0.
   const saldo = ingresos - totalGastos;
   saldoElement.textContent = `$${saldo.toFixed(2)}`;
   if (saldo < 0) {
@@ -71,5 +71,5 @@ categorias.forEach((categoria) => {
   const option = document.createElement("option");
   option.value = categoria;
   option.textContent = categoria;
-  categoriasSeleccionar.appendChild(option);
+  categoriasSeleccionar.appendChild(option); //se crea y se añade la opción en el select.
 });
